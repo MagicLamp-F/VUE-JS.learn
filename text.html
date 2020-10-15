@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        <page>{
+            font-size: 100px;
+        }
+        #t1{
+            color: black;
+            animation: t1 2s infinite;
+        }
+        #t2{
+            color: red;
+            animation: t2 2s infinite;
+        }
+        #t3{
+            color: yellow;
+            animation: t3 2s infinite;
+        }
+        #t4{
+            color: aqua;
+            animation: t4 2s infinite;
+        }
+        @keyframes t1 {
+              0%{opacity: 0}
+              20%{opacity: 100}
+              40%{opacity: 0}
+              100%{opacity: 0}
+          }
+        @keyframes t2 {
+            0%{opacity: 0}
+            20%{opacity: 0}
+            40%{opacity: 100}
+            60%{opacity: 0}
+            100%{opacity: 0}
+        }
+        @keyframes t3 {
+            0%{opacity: 0}
+            40%{opacity: 0}
+            60%{opacity: 100}
+            80%{opacity: 0}
+            100%{opacity: 0}
+        }
+        @keyframes t4 {
+            0%{opacity: 0}
+            60%{opacity: 0}
+            80%{opacity: 100}
+            100%{opacity: 0}
+        }
+    </style>
+</head>
+<body>
+<page id="t1">太</page>
+<page id="t2">对</page>
+<page id="t3">了</page>
+<page id="t4">哥</page>
+</body>
+</html>
